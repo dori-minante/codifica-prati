@@ -1,12 +1,12 @@
 //console.log("Hello, World!");
-//console.log(2 + 5);
 // comentar = selecionar tudo ctrl + ;
 // let pertence a um escopo de bloco, ou seja, só existe dentro do bloco onde foi declarado. Posso trocar os valores de uma variável declarada com let, mas não posso redeclarar a variável.
 
-let nome = "Guilherme"; // declaração de uma variavel do tipo string
-let numero = 25;
+let $nome = "Guilherme"; // declaração de uma variavel do tipo string
+let numero2 = 25; // number (inteiro ou decimal)
 let boolean = true; // use quando o valor precisa mudar
 const curso = "Full Stack"; // use quando o valor não muda
+// não começar o nome da variável com números, não dar espaços, usar camelCase para nomear variáveis, evitar caracteres especiais (exceto $ e _), e usar palavras descritivas para facilitar a compreensão do código.
 
 //const significa que a variável é constante, ou seja, não pode ser reatribuída. O valor de uma variável declarada com const não pode ser alterado, mas se for um objeto ou array, suas propriedades ou elementos podem ser modificados.
 
