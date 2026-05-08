@@ -23,7 +23,17 @@ let numeros = [2, 5, 1, 6, 1]
 // índices 0 1 2 3 4
 //console.log(numeros);
 
-for (let pos = 0; pos < numeros.length; pos++) {
+//for (let pos = 0; pos < numeros.length; pos++) {
   //console.log("A posição " + pos + " tem o valor: " + numeros[pos]);
-  console.log(`A posição ${pos} tem o valor: ${numeros[pos]}`);
+//  console.log(`A posição ${pos} tem o valor: ${numeros[pos]}`);
+//}
+
+numeros.forEach(function(numeros){
+  console.log(numeros);
+}); // O forEach é um método de array que executa uma função para cada elemento do array. Ele recebe como parâmetro uma função que é executada para cada elemento do array. A função recebe como parâmetro o elemento do array, o índice do elemento e o array completo. O forEach é mais utilizado para percorrer arrays, mas também pode ser usado para percorrer objetos.
+//ele percorre os valores de cada posição do array, ou seja, ele percorre os valores 2 5 1 6 1
+
+for (let pos in numeros) {
+  console.log(numeros[pos]);
 }
+// O for in é um laço de repetição que percorre os índices de um array ou as chaves de um objeto. Ele recebe como parâmetro uma variável que representa o índice do array ou a chave do objeto. O for in é mais utilizado para percorrer objetos, mas também pode ser usado para percorrer arrays.
