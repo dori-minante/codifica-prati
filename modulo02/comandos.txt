@@ -10,7 +10,7 @@ rm-rf .git -> excluir pasta e subpastas
 git add nomeDoArquivo ->adiciona o arquivo para commit
 git add . -> seleciona todos os arquivos/modificações para adicionar ao commit/save
 git commit -m "escreve a mensagem indicando o que foi feito na atualização" -> manda a atualização
-
+pwd - lista o caminnho ate a pasta que voce esta
 ctrl + c -> cancela ultimo comando
 
 Sempre que usar um comando, existe uma ordem que deve ser seguida. Por exemplo:
