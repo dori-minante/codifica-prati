@@ -1,3 +1,5 @@
+crlt + : - comentários no html
+
 ls - lista o conteúdo da pasta
 cd "nome do caminho" - entra no destino
 mkdir "nome da pasta" - cria nova pasta
