@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exemplo de formulário</title>
+</head>
+<body>
+  <form action="#">
+    <label for="nome">Nome:</label><!-- A tag label é usada para definir um rótulo para um elemento de formulário. O atributo for deve corresponder ao id do elemento de formulário que ele está rotulando -->
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required><!-- A tag input é usada para criar um campo de entrada onde os usuários podem inserir dados. O atributo type define o tipo de campo de entrada, name é o nome do campo que será enviado com o formulário, e placeholder é um texto que aparece dentro do campo de entrada como uma dica para o usuário, o id é o identificador único do elemento e o atributo required torna o campo obrigatório -->
+    <br><br> <!-- A tag br é usada para criar uma quebra de linha, ou seja, para iniciar um novo parágrafo ou linha de texto -->
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="email" placeholder="exemplo@dominio.com">
+    <br><br>
+    <label for="senha">Senha:</label>
+    <input type="password" name="senha" id="senha" placeholder="Senha com 8 caracteres" minlength="8" maxlength="12" required><!-- O atributo minlength define o número mínimo de caracteres que o usuário deve inserir no campo de entrada -->
+    <br><br>
+    <label for"telefone">Telefone</label>
+    <input type="tel" name="telefone" id="telefone" placeholder="(99) 99999-9999">
+    <br><br>
+    <label for="date" name="date">Data de nascimento:</label>
+    <input type="date" name="date" id="date">
+    <br><br>
+    <p>Escolha seu turno:</p>
+    <input type="radio" name="turno" id="manha"><!-- A tag input com o atributo type="radio" é usada para criar um botão de opção, que permite ao usuário selecionar apenas uma opção de um conjunto de opções -->
+    <label for="manha">Manhã</label>
+    <input type="radio" name="turno" id="tarde">
+    <label for="tarde">Tarde</label>
+    <input type="radio" name="turno" id="noite">
+    <label for="noite">Noite</label>
+    <br><br>
+    <input type="checkbox" name="materia" id="quimica" value="quimica"><!-- A tag input com o atributo type="checkbox" é usada para criar uma caixa de seleção, que permite ao usuário selecionar uma ou mais opções de um conjunto de opções. E o atributo value define o valor que será enviado quando o formulário for submetido -->
+    <label for="quimica">Química</label>
+    <input type="checkbox" name="materia" id="fisica" value="fisica">
+    <label for="fisica">Física</label>
+    <input type="checkbox" name="materia" id="matematica" value="matematica">
+    <label for="matematica">Matemática</label>
+    </form>
+</body>
+</html>
