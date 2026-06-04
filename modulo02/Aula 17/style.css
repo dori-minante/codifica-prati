@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(202, 189, 154); /* Define a cor de fundo da página */
+  font-family: Arial, Helvetica, sans-serif; /* Define a fonte utilizada na página */
+}
+
+p {
+      font-size: 25px; /* Define o tamanho da fonte para os parágrafos */
+      text-align: justify; /* Justifica o texto dos parágrafos */
+}
+
+h1 {
+  color: blue; /* Define a cor do texto para os títulos h1 */
+  font-size: 32px;
+  text-align: center;
+}
+
+.card {
+  background-color:white; /* Define a cor de fundo da caixa como branco */
+  width: 500px; /* Define a largura da caixa */
+  height: auto; /* Define a altura da caixa como automática para se ajustar ao conteúdo */
+  margin: 50px auto; /* Centraliza a caixa horizontalmente e adiciona uma margem superior de 50px. Adiciona 50px de margem superior e inferior e centraliza horizontalmente */
+  padding: 30px; /* Adiciona um espaçamento interno de 30px. padding = espaçamento interno; margin; espaçamento externo */
+  border: 2px solid black; /* Adiciona uma borda preta de 2px ao redor da caixa */
+}
+
+h2 {
+  color:aqua; /* Define a cor do texto para os títulos h2 */
+}
+
+#texto { /* Seleciona o elemento com id "texto e tem prioridade sobre o seletor p" */
+  font-size: 10px; /* Define o tamanho da fonte para o elemento com id "texto" */
+}
+
+#texto2 { /* Seleciona o elemento com id "texto2" e tem prioridade sobre o seletor p */
+  color:blue
+}
+
+/* a diferença entre id e class é que o id é único, ou seja, só pode ser usado uma vez em um documento HTML, enquanto a class pode ser usada várias vezes para aplicar estilos a múltiplos elementos. O id é selecionado usando o símbolo #, enquanto a class é selecionada usando o símbolo . */
