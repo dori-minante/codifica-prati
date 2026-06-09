@@ -1,0 +1,16 @@
+.caixa {
+  background-color: aquamarine;
+  padding: 30px;
+  margin: 10px;
+}
+
+.container {
+  display: flex; /* Define o container como um flex container, que é um modelo de layout que permite controlar a distribuição e alinhamento dos elementos filhos */
+  flex-direction: row; /* Define a direção dos itens flexíveis como linha (horizontal) */
+  background-color: bisque;
+  justify-content: center; /* Centraliza os itens flexíveis horizontalmente */
+  height: 400px;
+  align-items: center; /* Centraliza os itens flexíveis verticalmente */
+  gap: 20px; /* Define um espaço de 20px entre os itens flexíveis */
+  flex-wrap: wrap; /* Permite que os itens flexíveis quebrem para a próxima linha se não houver espaço suficiente na linha atual */
+}
