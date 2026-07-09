@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Isso faz com que o padding e a borda sejam incluídos na largura e altura totais do elemento. */
+}
+
+body {
+  font-family: var(--fonte-manchete); /* O var é usado para acessar as variáveis CSS definidas no :root. */
+  background-color: var(--papel);
+  color: var(--tinta);
+  line-height: 1.6; /* Define a altura da linha para melhorar a legibilidade do texto. */
+}
+
+.container {
+  max-width: 1100px; /* Define a largura máxima do container para 1100 pixels. */
+  margin: 0 auto; /* Centraliza o container horizontalmente na página. */
+  padding: 0 16px; /* Adiciona um padding horizontal de 16 pixels para evitar que o conteúdo encoste nas bordas da tela. */
+}

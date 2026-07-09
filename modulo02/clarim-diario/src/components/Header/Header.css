@@ -1,0 +1,53 @@
+.cabecalho {  
+  padding: 12px 16px 0; /* Adiciona um padding de 12 pixels no topo, 16 pixels nas laterais e 0 na parte inferior. */
+  max-width: 1100px; /* Define a largura máxima do cabeçalho para 1100 pixels. */
+  margin: 0 auto; /* Centraliza o cabeçalho horizontalmente na página.*/
+}
+
+.cabecalho__faixa {
+  display: flex; /* Define o layout do elemento como flexível, permitindo o alinhamento dos itens filhos. */
+  justify-content: space-between; /* Distribui o espaço entre os itens filhos, colocando o primeiro item à esquerda e o último à direita. */
+  font-family: var(--fonte-ui); /* Define a fonte do texto usando a variável --fonte-ui. */
+  font-size: 12px; /* Define o tamanho da fonte para 12 pixels. */
+  text-transform: uppercase; /* Transforma o texto em letras maiúsculas. */
+  border-bottom: 1px solid var(--tinta); /* Adiciona uma borda inferior sólida de 1 pixel com a cor definida pela variável --tinta. */
+  padding-bottom: 6px; /* Adiciona um padding de 6 pixels na parte inferior do elemento. */
+}
+
+.cabecalho__titulo {
+  text-align: center; /* Centraliza o texto horizontalmente dentro do elemento. */
+  font-style:italic; /* Aplica o estilo de fonte itálico ao texto. */
+  font-size: clamp(40px, 8vw, 84px); /* Define o tamanho da fonte usando a função clamp, que ajusta o tamanho entre 40px e 84px com base na largura da viewport (8vw). */
+  lettler-spacing: 2px; /* Adiciona um espaçamento de 2 pixels entre as letras do texto. */
+  margin: 10px 0 2px; /* Adiciona uma margem de 10 pixels no topo, 0 nas laterais e 2 pixels na parte inferior do elemento. */
+}
+
+.cabecalho__lema {
+  text-align:center; /* Centraliza o texto horizontalmente dentro do elemento. */
+  font-style: italic; /* Aplica o estilo de fonte itálico ao texto. */
+  font-size: 14px; /* Define o tamanho da fonte para 14 pixels. */
+  color: var(--cinza-legenda); /* Define a cor do texto usando a variável --cinza-legenda. */
+  margin-bottom: 10px; /* Adiciona uma margem de 10 pixels na parte inferior do elemento. */
+}
+
+.cabecalho__menu {
+  display: flex; /* Define o layout do elemento como flexível, permitindo o alinhamento dos itens filhos. */
+  justify-content: center; /* Centraliza os itens filhos horizontalmente dentro do elemento. */
+  gap: 28px; /* Adiciona um espaçamento de 28 pixels entre os itens filhos. */
+  border-top: 1px solid var(--tinta); /* Adiciona uma borda superior sólida de 1 pixel com a cor definida pela variável --tinta. */
+  padding: 10px 0; /* Adiciona um padding de 10 pixels na parte superior e inferior do elemento. */
+  border-bottom: 4px double var(--tinta); /* Adiciona uma borda inferior dupla de 4 pixels com a cor definida pela variável --tinta. */
+}
+
+.cabecalho__menu a {
+  font-family: var(--fonte-ui); /* Define a fonte do texto usando a variável --fonte-ui. */
+  font-size: 14px; /* Define o tamanho da fonte para 14 pixels. */
+  font-weight: bold; /* Define o peso da fonte como negrito. */
+  text-transform: uppercase; /* Transforma o texto em letras maiúsculas. */
+  color: var(--tinta); /* Define a cor do texto usando a variável --tinta. */
+  text-decoration: none; /* Remove qualquer decoração de texto, como sublinhado, do link. */
+}
+
+.cabecalho__faixa a:hover {
+  color: var(--urgente); /* Altera a cor do texto para a variável --urgente quando o mouse passa sobre o link. */
+}
